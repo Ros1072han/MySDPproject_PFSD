@@ -1,0 +1,41 @@
+{% load static %}
+<style>
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #FF6347;
+            padding: 0px ;
+        }
+    </style>
+<footer class="py-2">
+    <div>
+        <footer class="d-flex">
+            <div class="col-md-4 d-flex align-items-left">
+<span class="text-muted align=center" style="font-weight: bold; color: black;">© 2024 Your Wish. Inc</span>
+
+            </div>
+
+            <div class="col-md-8">
+          <div class="social text-right">
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-linkedin"></i>
+            </a>
+           <a href="{% url 'insta' %}">
+
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-pinterest"></i>
+            </a>
+          </div>
+        </div>
+        </footer>
+    </div>
+</footer>
